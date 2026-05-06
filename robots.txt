@@ -1,0 +1,39 @@
+# softmeal.org — explicit AI crawler permissions
+# Updated 2026-05-06: stop redirect bleed, become independent indexable site
+
+User-agent: *
+Allow: /
+
+# Western AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Mainland AI crawlers
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+Sitemap: https://softmeal.org/sitemap.xml
